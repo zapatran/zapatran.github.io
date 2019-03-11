@@ -17,7 +17,8 @@
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0100</pubDate>
       
       <guid>https://zapatran.github.io/post/test-from-forestry/</guid>
-      <description>Test from forestry</description>
+      <description>Test from forestry
+var greetings = &#39;hola&#39;;  </description>
     </item>
     
     <item>
