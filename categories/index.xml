@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hugo Cactus Theme</title>
+    <title>Categories on Zapatran</title>
     <link>https://zapatran.github.io/categories/</link>
-    <description>Recent content in Categories on Hugo Cactus Theme</description>
+    <description>Recent content in Categories on Zapatran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,9 +11,18 @@
     
     
     <item>
+      <title>Deploy</title>
+      <link>https://zapatran.github.io/categories/deploy/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://zapatran.github.io/categories/deploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Development</title>
       <link>https://zapatran.github.io/categories/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0100</pubDate>
       
       <guid>https://zapatran.github.io/categories/development/</guid>
       <description></description>

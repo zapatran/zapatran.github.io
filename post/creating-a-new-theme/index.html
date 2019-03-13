@@ -1,85 +1,95 @@
 <!DOCTYPE html>
-<html lang="en-us">
-	<head>
-    <meta charset="utf-8">
+<html lang="en">
+
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta name="author" content="Thor Jubera Albo">
+
 <meta name="description" content="I&#39;m developer">
 <meta name="generator" content="Hugo 0.53" />
 <title>Creating a New Theme</title>
 <link rel="shortcut icon" href="https://zapatran.github.io/images/favicon.ico">
-<link rel="stylesheet" href="https://zapatran.github.io/css/style.css">
-<link rel="stylesheet" href="https://zapatran.github.io/css/highlight.css">
 
 
 
-<link rel="stylesheet" href="https://zapatran.github.io/css/monosocialiconsfont.css">
+
+<link href="https://zapatran.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Zapatran" />
 
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/regular.css" integrity="sha384-IG162Tfx2WTn//TRUi9ahZHsz47lNKzYOp0b6Vv8qltVlPkub2yj9TVwzNck6GEF" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-<link href="https://zapatran.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Hugo Cactus Theme" />
+<link rel="stylesheet" href="https://zapatran.github.io/sass/main.1eea580760ca7fa63e5fd43b8fa203f3e2ee4aac71eb1f669797dc55effdb4d0.css">
 
+<link rel="stylesheet" href="https://zapatran.github.io/css/main.css">
+</head>
 
-<meta property="og:title" content="Creating a New Theme" />
-<meta property="og:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://zapatran.github.io/post/creating-a-new-theme/" /><meta property="article:published_time" content="2014-09-28T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2014-09-28T00:00:00&#43;00:00"/>
-
-
-
-<meta itemprop="name" content="Creating a New Theme">
-<meta itemprop="description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.">
-
-
-<meta itemprop="datePublished" content="2014-09-28T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2014-09-28T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="7182">
-
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Creating a New Theme"/>
-<meta name="twitter:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template."/>
-
-
-    </head>
 <body>
-    <nav class="main-nav">
-	
-		<a href='https://zapatran.github.io/'> <span class="arrow">←</span>Home</a>
-	
-
-	
- 		<a href='/about/'>About</a>
-  	
-
-	
-		<a class="cta" href="https://zapatran.github.io/index.xml">Subscribe</a>
-	
+  <nav class="nav">
+  <div class="nav-container">
+    <div class="brand">
+      <a href='https://zapatran.github.io/'>
+        
+          <span class="brand-icon">👨🏻‍💻</span>
+        
+        <span>Zapatran</span>
+      </a>
+    </div>
+    <div class="links">
+      
+        <a href='/about/'>About</a>
+      
+        <a href='/post/'>Articles</a>
+      
+    </div>
+    <div class="extra">
+      
+      
+      <a class="symbol" href="https://www.github.com/zapatran" class="nav-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+      
+      <a class="symbol" href="https://www.instagram.com/zapatran" class="nav-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram"></i>
+      </a>
+      
+      <a class="symbol" href="https://www.linkedin.com/in/thorjuberaalbo/" class="nav-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      
+      
+        <a class="cta" href="https://zapatran.github.io/index.xml">
+          <span class="yellow">
+            <i class="fas fa-rss"></i>
+          </span>
+        </a>
+      
+      
+    </div>
+  </div>
 </nav>
-
-    <section id="wrapper">
+  
+  <main id="main-content">
+    
+<article class="article" id="post-3339">
+  <div class="container">
+    <header class="single-header">
+      
+        <img src="https://zapatran.github.io/images/floppy.png" alt="Creating a New Theme" height="75" width="75">
+      
+      
+      <h1>Creating a New Theme</h1>
+      <div class="date">
+        <time datetime="2018-11-06">September 28, 2014</time> &nbsp;
         
-        
-<article class="post">
-    <header>
-        <h1>Creating a New Theme</h1>
-        <h2 class="subtitle"></h2>
-        <h2 class="headline">
-        September 28, 2014
-        <br>
-        
-        </h2>
+      </div>
     </header>
-    <section id="post-body">
-        
+    
 
 <h3 id="introduction"><strong>Introduction</strong></h3>
 
@@ -172,7 +182,7 @@ func main() {
 
 <p>The &ldquo;new site&rdquo; command will create a skeleton of a site. It will give you the basic directory structure and a useable configuration file.</p>
 
-<pre><code>$ hugo new site ~/Sites/zafta
+<pre><code class="language-bash">$ hugo new site ~/Sites/zafta
 $ cd ~/Sites/zafta
 $ ls -l
 total 8
@@ -194,7 +204,7 @@ $
 
 <p>Running the <code>hugo</code> command with no options will read all the available content and generate the HTML files. It will also copy all static files (that&rsquo;s everything that&rsquo;s not content). Since we have an empty site, it won&rsquo;t do much, but it will do it very quickly.</p>
 
-<pre><code>$ hugo --verbose
+<pre><code class="language-bash">$ hugo --verbose
 INFO: 2014/09/29 Using config file: config.toml
 INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [index.html _default/list.html _default/single.html]
@@ -212,7 +222,7 @@ $
 
 <p>We can verify that the command worked by looking at the directory again.</p>
 
-<pre><code>$ ls -l
+<pre><code class="language-bash">$ ls -l
 total 8
 drwxr-xr-x  2 quoha  staff   68 Sep 29 16:49 archetypes
 -rw-r--r--  1 quoha  staff   82 Sep 29 16:49 config.toml
@@ -238,7 +248,7 @@ $
 
 <p>Verify that you can run the built-in web server. It will dramatically shorten your development cycle if you do. Start it by running the &ldquo;server&rdquo; command. If it is successful, you will see output similar to the following:</p>
 
-<pre><code>$ hugo server --verbose
+<pre><code class="language-bash">$ hugo server --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
 INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [index.html _default/list.html _default/single.html]
@@ -1157,112 +1167,15 @@ $ vi themes/zafta/layouts/_default/single.html
 
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
 
-    </section>
+  </div>
 </article>
 
-<footer id="post-meta" class="clearfix">
+  </main><footer class="footer">
+  <div class="container">
+    <small>Made by <strong>Zapatran</strong></small>
+  
     
-    <img class="avatar" src="https://zapatran.github.io/images/avatar.png">
-    <div>
-        <span class="dark">Thor Jubera Albo</span>
-        <span>I&#39;m an blogger.</span>
-    </div>
-    
-    <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fzapatran.github.io%2fpost%2fcreating-a-new-theme%2f - Creating%20a%20New%20Theme "><span class="icon-twitter"> tweet</span></a>
-
-<a class="facebook" href="#" onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
-      'facebook-share-dialog',
-      'width=626,height=436');
-    return false;"><span class="icon-facebook-rect"> Share</span>
-</a>
-
-    </section>
+  </div>
 </footer>
-
-
-
-<ul id="post-list" class="archive readmore">
-    <h3>Read more</h3>
-
-    
-    
-    
-        <li>
-            <a href="/post/test-from-forestry/">test from forestry<aside class="dates">Dec 29 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/post/goisforlovers/">(Hu)go Template Primer<aside class="dates">Apr 2 2014</aside></a>
-        </li>
-    
-        <li>
-            <a href="/post/hugoisforlovers/">Getting Started with Hugo<aside class="dates">Apr 2 2014</aside></a>
-        </li>
-    
-        <li>
-            <a href="/post/migrate-from-jekyll/">Migrating from Jekyll<aside class="dates">Mar 10 2014</aside></a>
-        </li>
-    
-</ul>
-
-
-
-        <footer id="footer">
-    
-        <div id="social">
-
-	
-	
-    
-    <a class="symbol" href="https://www.github.com/zapatran">
-        github
-    </a>
-    
-    <a class="symbol" href="https://www.instagram.com/zapatran">
-        instagram
-    </a>
-    
-    <a class="symbol" href="https://www.linkedin.com/in/thorjuberaalbo/">
-        linkedin
-    </a>
-    
-
-
-</div>
-
-    
-    <p class="small">
-    
-        © Copyright 2019 Thor Jubera Albo
-    
-    </p>
-</footer>
-
-    </section>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://zapatran.github.io/js/main.js"></script>
-<script src="https://zapatran.github.io/js/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-136045907-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
-
-</body>
+<script src="/js/prism.js"></script></body>
 </html>

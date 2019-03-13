@@ -1,99 +1,95 @@
 <!DOCTYPE html>
-<html lang="en-us">
-	<head>
-    <meta charset="utf-8">
+<html lang="en">
+
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta name="author" content="Thor Jubera Albo">
+
 <meta name="description" content="I&#39;m developer">
 <meta name="generator" content="Hugo 0.53" />
 <title>(Hu)go Template Primer</title>
 <link rel="shortcut icon" href="https://zapatran.github.io/images/favicon.ico">
-<link rel="stylesheet" href="https://zapatran.github.io/css/style.css">
-<link rel="stylesheet" href="https://zapatran.github.io/css/highlight.css">
 
 
 
-<link rel="stylesheet" href="https://zapatran.github.io/css/monosocialiconsfont.css">
+
+<link href="https://zapatran.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Zapatran" />
 
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/regular.css" integrity="sha384-IG162Tfx2WTn//TRUi9ahZHsz47lNKzYOp0b6Vv8qltVlPkub2yj9TVwzNck6GEF" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-<link href="https://zapatran.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Hugo Cactus Theme" />
+<link rel="stylesheet" href="https://zapatran.github.io/sass/main.1eea580760ca7fa63e5fd43b8fa203f3e2ee4aac71eb1f669797dc55effdb4d0.css">
 
+<link rel="stylesheet" href="https://zapatran.github.io/css/main.css">
+</head>
 
-<meta property="og:title" content="(Hu)go Template Primer" />
-<meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://zapatran.github.io/post/goisforlovers/" /><meta property="article:published_time" content="2014-04-02T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2014-04-02T00:00:00&#43;00:00"/>
-
-
-
-<meta itemprop="name" content="(Hu)go Template Primer">
-<meta itemprop="description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.">
-
-
-<meta itemprop="datePublished" content="2014-04-02T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2014-04-02T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1488">
-
-
-
-<meta itemprop="keywords" content="go,golang,templates,themes,development," />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="(Hu)go Template Primer"/>
-<meta name="twitter:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates."/>
-
-
-    </head>
 <body>
-    <nav class="main-nav">
-	
-		<a href='https://zapatran.github.io/'> <span class="arrow">←</span>Home</a>
-	
-
-	
- 		<a href='/about/'>About</a>
-  	
-
-	
-		<a class="cta" href="https://zapatran.github.io/index.xml">Subscribe</a>
-	
+  <nav class="nav">
+  <div class="nav-container">
+    <div class="brand">
+      <a href='https://zapatran.github.io/'>
+        
+          <span class="brand-icon">👨🏻‍💻</span>
+        
+        <span>Zapatran</span>
+      </a>
+    </div>
+    <div class="links">
+      
+        <a href='/about/'>About</a>
+      
+        <a href='/post/'>Articles</a>
+      
+    </div>
+    <div class="extra">
+      
+      
+      <a class="symbol" href="https://www.github.com/zapatran" class="nav-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+      
+      <a class="symbol" href="https://www.instagram.com/zapatran" class="nav-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram"></i>
+      </a>
+      
+      <a class="symbol" href="https://www.linkedin.com/in/thorjuberaalbo/" class="nav-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      
+      
+        <a class="cta" href="https://zapatran.github.io/index.xml">
+          <span class="yellow">
+            <i class="fas fa-rss"></i>
+          </span>
+        </a>
+      
+      
+    </div>
+  </div>
 </nav>
-
-    <section id="wrapper">
+  
+  <main id="main-content">
+    
+<article class="article" id="post-3339">
+  <div class="container">
+    <header class="single-header">
+      
+        <img src="https://zapatran.github.io/images/floppy.png" alt="(Hu)go Template Primer" height="75" width="75">
+      
+      
+      <h1>(Hu)go Template Primer</h1>
+      <div class="date">
+        <time datetime="2018-11-06">April 2, 2014</time> &nbsp;
         
-        
-<article class="post">
-    <header>
-        <h1>(Hu)go Template Primer</h1>
-        <h2 class="subtitle"></h2>
-        <h2 class="headline">
-        April 2, 2014
-        <br>
-        
-        
-            
-                <a href="https://zapatran.github.io/tags/go">go</a>
-            
-                <a href="https://zapatran.github.io/tags/golang">golang</a>
-            
-                <a href="https://zapatran.github.io/tags/templates">templates</a>
-            
-                <a href="https://zapatran.github.io/tags/themes">themes</a>
-            
-                <a href="https://zapatran.github.io/tags/development">development</a>
-            
-        
-        
-        </h2>
+      </div>
     </header>
-    <section id="post-body">
-        
+    
 
 <p>Hugo uses the excellent <a href="http://golang.org/&gt;">go</a> <a href="http://golang.org/pkg/html/template/&gt;">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
@@ -431,112 +427,15 @@ so, such as in this example:</p>
 &lt;/nav&gt;
 </code></pre>
 
-    </section>
+  </div>
 </article>
 
-<footer id="post-meta" class="clearfix">
+  </main><footer class="footer">
+  <div class="container">
+    <small>Made by <strong>Zapatran</strong></small>
+  
     
-    <img class="avatar" src="https://zapatran.github.io/images/avatar.png">
-    <div>
-        <span class="dark">Thor Jubera Albo</span>
-        <span>I&#39;m an blogger.</span>
-    </div>
-    
-    <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fzapatran.github.io%2fpost%2fgoisforlovers%2f - %28Hu%29go%20Template%20Primer "><span class="icon-twitter"> tweet</span></a>
-
-<a class="facebook" href="#" onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
-      'facebook-share-dialog',
-      'width=626,height=436');
-    return false;"><span class="icon-facebook-rect"> Share</span>
-</a>
-
-    </section>
+  </div>
 </footer>
-
-
-
-<ul id="post-list" class="archive readmore">
-    <h3>Read more</h3>
-
-    
-    
-    
-        <li>
-            <a href="/post/test-from-forestry/">test from forestry<aside class="dates">Dec 29 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/post/creating-a-new-theme/">Creating a New Theme<aside class="dates">Sep 28 2014</aside></a>
-        </li>
-    
-        <li>
-            <a href="/post/hugoisforlovers/">Getting Started with Hugo<aside class="dates">Apr 2 2014</aside></a>
-        </li>
-    
-        <li>
-            <a href="/post/migrate-from-jekyll/">Migrating from Jekyll<aside class="dates">Mar 10 2014</aside></a>
-        </li>
-    
-</ul>
-
-
-
-        <footer id="footer">
-    
-        <div id="social">
-
-	
-	
-    
-    <a class="symbol" href="https://www.github.com/zapatran">
-        github
-    </a>
-    
-    <a class="symbol" href="https://www.instagram.com/zapatran">
-        instagram
-    </a>
-    
-    <a class="symbol" href="https://www.linkedin.com/in/thorjuberaalbo/">
-        linkedin
-    </a>
-    
-
-
-</div>
-
-    
-    <p class="small">
-    
-        © Copyright 2019 Thor Jubera Albo
-    
-    </p>
-</footer>
-
-    </section>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://zapatran.github.io/js/main.js"></script>
-<script src="https://zapatran.github.io/js/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-136045907-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
-
-</body>
+<script src="/js/prism.js"></script></body>
 </html>
