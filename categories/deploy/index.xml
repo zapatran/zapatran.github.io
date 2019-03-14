@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deploy on Zapatran</title>
-    <link>https://zapatran.github.io/categories/deploy/</link>
+    <link>https://zapatran.dev/categories/deploy/</link>
     <description>Recent content in Deploy on Zapatran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Dec 2018 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://zapatran.github.io/categories/deploy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zapatran.dev/categories/deploy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>test from forestry</title>
-      <link>https://zapatran.github.io/post/test-from-forestry/</link>
+      <link>https://zapatran.dev/post/test-from-forestry/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://zapatran.github.io/post/test-from-forestry/</guid>
+      <guid>https://zapatran.dev/post/test-from-forestry/</guid>
       <description>Test from forestry class Example extends Component { render() { return &amp;lt;div&amp;gt;I&#39;m a class component&amp;lt;/div&amp;gt; } } const Example = () =&amp;gt; { return &amp;lt;div&amp;gt;I&#39;m a simple component&amp;lt;/div&amp;gt; }  </description>
     </item>
     
