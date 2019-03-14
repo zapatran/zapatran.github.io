@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>about</title>
+      <link>https://zapatran.dev/about/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://zapatran.dev/about/</guid>
+      <description>About me</description>
+    </item>
+    
+    <item>
       <title>test from forestry</title>
       <link>https://zapatran.dev/post/test-from-forestry/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0100</pubDate>
