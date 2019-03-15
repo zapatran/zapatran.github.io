@@ -17,7 +17,8 @@
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0100</pubDate>
       
       <guid>https://zapatran.dev/post/test-from-forestry/</guid>
-      <description>Test from forestry class Example extends Component { render() { return &amp;lt;div&amp;gt;I&#39;m a class component&amp;lt;/div&amp;gt; } } const Example = () =&amp;gt; { return &amp;lt;div&amp;gt;I&#39;m a simple component&amp;lt;/div&amp;gt; }  </description>
+      <description>Test from forestry test
+class Example extends Component { render() { return &amp;lt;div&amp;gt;I&#39;m a class component&amp;lt;/div&amp;gt; } } const Example = () =&amp;gt; { return &amp;lt;div&amp;gt;I&#39;m a simple component&amp;lt;/div&amp;gt; }  </description>
     </item>
     
   </channel>
