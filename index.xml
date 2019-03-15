@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>forestry</title>
+      <link>https://zapatran.dev/post/forestry/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://zapatran.dev/post/forestry/</guid>
+      <description>forestry with image in front matter</description>
+    </item>
+    
+    <item>
       <title>about</title>
       <link>https://zapatran.dev/about/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0100</pubDate>

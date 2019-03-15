@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zapatran.dev/post/forestry/</loc>
+    <lastmod>2019-03-15T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zapatran.dev/about/</loc>
     <lastmod>2019-03-14T00:00:00+01:00</lastmod>
   </url>
@@ -55,13 +60,13 @@
   
   <url>
     <loc>https://zapatran.dev/categories/development/</loc>
-    <lastmod>2018-12-29T00:00:00+01:00</lastmod>
+    <lastmod>2019-03-15T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zapatran.dev/categories/golang/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-15T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
