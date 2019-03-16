@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>test from forestry</title>
-      <link>https://zapatran.dev/post/test-from-forestry/</link>
-      <pubDate>Sat, 29 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://zapatran.dev/post/test-from-forestry/</guid>
-      <description>Test from forestry class Example extends Component { render() { return &amp;lt;div&amp;gt;I&#39;m a class component&amp;lt;/div&amp;gt; } } const Example = () =&amp;gt; { return &amp;lt;div&amp;gt;I&#39;m a simple component&amp;lt;/div&amp;gt; }  </description>
-    </item>
-    
-    <item>
       <title>Creating a New Theme</title>
       <link>https://zapatran.dev/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
