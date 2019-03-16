@@ -6,19 +6,10 @@
     <description>Recent content in Development on Zapatran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zapatran.dev/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>forestry</title>
-      <link>https://zapatran.dev/post/forestry/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://zapatran.dev/post/forestry/</guid>
-      <description>forestry with image in front matter</description>
-    </item>
     
     <item>
       <title>Creating a New Theme</title>
