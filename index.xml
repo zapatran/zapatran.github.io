@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>thor on Zapatran</title>
+    <title>main on Zapatran</title>
     <link>https://zapatran.dev/</link>
-    <description>Recent content in thor on Zapatran</description>
+    <description>Recent content in main on Zapatran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Dec 2018 13:02:37 +0100</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0100</pubDate>
       
       <guid>https://zapatran.dev/about/</guid>
-      <description>Hello! I am Thor, a Computer Science and Multimedia Engineer focused on Web Development. I am currently based in Barcelona, even though I spent some time living in Canada.
-I have trouble naming my hobbies because I’m lucky enough that my biggest passion is what I do every day: coding. That said, I also enjoy writing (about code, obviously), traveling, taking pictures and learning about home automation.
-Still want to get to know me better?</description>
+      <description>I earned a degree in Computer Science Engineering as well as a degree in Multimedia Engineering from la Salle University in Barcelona. I have always been a business-oriented person and have an extensive Sales and managerial background. I spent a year in Canada improving my English, in which I have full professional proficiency.</description>
     </item>
     
     <item>
