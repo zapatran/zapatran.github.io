@@ -1,31 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<head><meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta name="author" content="John Doe">
+<meta name="author" content="John Doe" />
 
-<meta name="description" content="Describe your website">
+<meta name="description" content="Describe your website" />
 <meta name="generator" content="Hugo 0.53" />
 <title>Migrate to Hugo from Jekyll</title>
 
-<link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/male-technologist_1f468-200d-1f4bb.png">
+<link
+  rel="icon"
+  href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/male-technologist_1f468-200d-1f4bb.png"
+/>
 
-<link href="https://zapatran.dev/index.xml" rel="alternate" type="application/rss+xml" title="Zapatran" />
+<link
+  href="https://zapatran.dev/index.xml"
+  rel="alternate"
+  type="application/rss+xml"
+  title="Zapatran"
+/>
 
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/regular.css" integrity="sha384-IG162Tfx2WTn//TRUi9ahZHsz47lNKzYOp0b6Vv8qltVlPkub2yj9TVwzNck6GEF" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
-<link rel="stylesheet" id="All-css" href="//fonts.googleapis.com/css?family=Nunito%3A400%2C600%2C700%7CRoboto+Mono"
-  type="text/css" media="all">
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css"
+  integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B"
+  crossorigin="anonymous"
+/>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.7.2/css/regular.css"
+  integrity="sha384-IG162Tfx2WTn//TRUi9ahZHsz47lNKzYOp0b6Vv8qltVlPkub2yj9TVwzNck6GEF"
+  crossorigin="anonymous"
+/>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css"
+  integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK"
+  crossorigin="anonymous"
+/>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css"
+  integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+"
+  crossorigin="anonymous"
+/>
+<link
+  rel="stylesheet"
+  id="All-css"
+  href="//fonts.googleapis.com/css?family=Nunito%3A400%2C600%2C700%7CRoboto+Mono"
+  type="text/css"
+  media="all"
+/>
 
-<link rel="stylesheet" href="https://zapatran.dev/sass/main.min.f90c74636398832f92d86ef2814328b1345144f357ea6ad8096f850157472519.css">
-<link id="night-css" rel="stylesheet" href="">
+<link rel="stylesheet" href="https://zapatran.dev/sass/main.min.ea1db9132bb7fa3dfb4feff8f62963e506ef79e6f800bb063dd0b59f39f76980.css" />
+<link id="night-css" rel="stylesheet" href="" />
 
-<link rel="stylesheet" href="https://zapatran.dev/css/main.css">
+<link rel="stylesheet" href="https://zapatran.dev/css/main.css" />
 
 
 <meta property="og:title" content="Migrate to Hugo from Jekyll" />
@@ -57,7 +90,6 @@
 <meta name="twitter:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &lt;root&gt;/ ▾ images/ logo.png  should become
 ▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static."/>
-
 
 </head>
 <body><nav class="nav">
@@ -98,6 +130,7 @@
         </a>
       
       <a class="nav-icon" id="night-mode"><i class="fas fa-moon"></i></a>
+      
     </div>
   </div>
 </nav><main id="main-content">
@@ -297,7 +330,9 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
 <script src="/js/prism.js"></script>
 
 
-<script>window.emojicom_widget = { campaign: "0whQUXyf9ahwDHReCeKj" };</script>
+<script>
+  window.emojicom_widget = { campaign: "0whQUXyf9ahwDHReCeKj" };
+</script>
 <script src="https://cdn.emojicom.io/embed/widget.js" async></script>
 
 
@@ -315,5 +350,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
+
 </body>
 </html>
