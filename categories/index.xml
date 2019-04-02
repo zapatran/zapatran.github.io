@@ -10,23 +10,5 @@
 	<atom:link href="https://zapatran.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Development</title>
-      <link>https://zapatran.dev/categories/development/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://zapatran.dev/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://zapatran.dev/categories/golang/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://zapatran.dev/categories/golang/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
