@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>thor on Zapatran</title>
-    <link>https://zapatran.dev/</link>
+    <link>https://zapatran.github.io/</link>
     <description>Recent content in thor on Zapatran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Dec 2018 13:02:37 +0100</lastBuildDate>
     
-	<atom:link href="https://zapatran.dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zapatran.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Me</title>
-      <link>https://zapatran.dev/about/</link>
+      <link>https://zapatran.github.io/about/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0100</pubDate>
       
-      <guid>https://zapatran.dev/about/</guid>
+      <guid>https://zapatran.github.io/about/</guid>
       <description>👋! I am Thor, a Computer Science and Multimedia Engineer focused on Web Development. I am currently based in Barcelona, even though I spent some time living in Canada, Vancouver.
 I have trouble naming my hobbies because I’m lucky enough that my biggest passion is what I do every day: coding. That said, I also enjoy reading (about code, obviously), traveling, taking pictures and learning about home automation.
 Still want to get to know me better?</description>
